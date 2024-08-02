@@ -19,7 +19,6 @@ python predict_patches.py /path/to/patches /path/to/output https://model/downloa
 python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predictions.npy /path/to/output/segmented.png
 
 
-![image](https://github.com/user-attachments/assets/f0d8467f-c439-4fba-af8a-b2cef9f337fb)
 
 
-
+![Screenshot 2024-08-02 141037](https://github.com/user-attachments/assets/8d523ddf-86df-43be-afff-dabea96a1aef)
