@@ -13,6 +13,6 @@ python create_patches.py /path/to/img.tiff /path/to/patches
 
 3. Prediction
 python segm.py /path/to/patches /path/to/predictions
-
+* The script will automatically create the predictions directory if it does not already exist.
 
 
