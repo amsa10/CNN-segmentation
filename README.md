@@ -7,10 +7,12 @@ cd path/to/data
 ./download.sh
 
 2. Extract Patches from an Image: 
-python create_patches.py /path/to/img.tiff /path/to/output_dir
-     *This command will process the image, extract patches, and save them along with metadata to the specified output directory. If the directory doesn’t exist, the script will create it.
+python create_patches.py /path/to/img.tiff /path/to/patches
+     *If the directory patches doesn’t exist, the script will create it.
 
 
+3. Prediction
+python segm.py /path/to/patches /path/to/predictions
 
 
 
