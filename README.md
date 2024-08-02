@@ -6,3 +6,4 @@ Open your terminal and run the following command:
 cd path/to/data
 ./download.sh
 
+## Data download
