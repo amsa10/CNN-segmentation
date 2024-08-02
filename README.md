@@ -1,18 +1,14 @@
 # Conv-segmentation
 
 ## Instructions 
-Open your terminal and run the following command: 
 ```bash
+1. Open your terminal and run the following command: 
 cd path/to/data
 ./download.sh
 
-2. Extract Patches from an Image
-To extract patches from an image, use the create_patches.py script. Ensure you provide the correct paths for your image and the output directory. Run the following command:
-
-bash
-Copy code
+2. Extract Patches from an Image: 
 python create_patches.py /path/to/img.tiff /path/to/output_dir
-     
+     *This command will process the image, extract patches, and save them along with metadata to the specified output directory. If the directory doesn’t exist, the script will create it.
 
 
 
