@@ -23,7 +23,7 @@ python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predicti
 
 ## Literature
 
-This project is based on or inspired by the following works: 
+This project is based on by the following works: 
 
 1. https://arxiv.org/abs/1901.10077
 
