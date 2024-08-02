@@ -1,14 +1,6 @@
 # Conv-segmentation 
 
 This is an initial version 
-
-
-
-
-![image](https://github.com/user-attachments/assets/b1c112f5-9210-4159-8c23-123c1604fe6d)
-[Click here to view the seg_image](https://github.com/amsa10/Conv-segmentation/blob/main/data/segmented.png?raw=true)
-
-
 ## Instructions 
 ```bash
 1. Open your terminal and run the following command: 
