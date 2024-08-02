@@ -1,9 +1,10 @@
 # Conv-segmentation
 
-## Data download
+## Instructions 
 Open your terminal and run the following command: 
 ```bash
 cd path/to/data
 ./download.sh
 
-## Data download
+Extract patches from an image 
+```bash
