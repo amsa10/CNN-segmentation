@@ -3,8 +3,18 @@ import numpy as np
 import requests
 from tqdm import tqdm
 import tensorflow as tf
+from tensorflow.keras.losses import Loss
+from tensorflow.keras.optimizers import Adam
 from PIL import Image
 import argparse
+
+class SoftJaccardLoss(Loss):
+    def call(self, y_true, y_pred):
+        epsilon = 1e-7
+        intersection = tf.reduce_sum(y_true * y_pred, axis=[1, 2, 3])
+        union = tf.reduce_sum(y_true + y_pred, axis=[1, 2, 3]) - intersection
+        loss = 1 - (intersection + epsilon) / (union + epsilon)
+        return tf.reduce_mean(loss)
 
 def download_model(model_url, model_path):
     response = requests.get(model_url, stream=True)
@@ -21,7 +31,14 @@ def download_model(model_url, model_path):
         print(f"Failed to download model, status code: {response.status_code}")
 
 def load_model(model_path):
-    return tf.keras.models.load_model(model_path, compile=False)
+    # Load the model
+    model = tf.keras.models.load_model(model_path, compile=False)
+    
+    # Recompile with custom loss function and optimizer if necessary
+    optimizer = Adam(learning_rate=1e-4)
+    model.compile(optimizer=optimizer, loss=SoftJaccardLoss())
+    
+    return model
 
 def load_patches(patches_dir):
     patches = []
@@ -34,6 +51,7 @@ def load_patches(patches_dir):
     return np.array(patches)
 
 def save_predictions(predictions, output_dir):
+    # Ensure the output directory exists
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
@@ -64,7 +82,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Download a model, make predictions on patches, and save predictions.')
     parser.add_argument('patches_dir', type=str, help='Directory containing image patches.')
     parser.add_argument('output_dir', type=str, help='Directory to save predictions.')
-    parser.add_argument('--model_url', type=str, default='https://vault.sfu.ca/index.php/s/2Xk6ZRbwfnjrOtu/download', help='URL to download the pretrained model.')
+    parser.add_argument('model_url', type=str, help='URL to download the pretrained model.')
     
     args = parser.parse_args()
     main(args.patches_dir, args.output_dir, args.model_url)
+
+
