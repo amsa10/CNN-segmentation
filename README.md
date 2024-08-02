@@ -3,6 +3,6 @@
 ## Data download
 Open your terminal and run the following command: 
 ```bash
-chmod +x path/to/thisproject/data/download.sh
+cd path/to/thisproject/data
 ./download.sh
 
