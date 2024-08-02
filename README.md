@@ -1,4 +1,5 @@
 # Conv-segmentation
+![Screenshot 2024-08-02 141037](https://github.com/user-attachments/assets/5e21ee2b-220a-40ed-933a-0faf51dd4777)
 
 ## Instructions 
 ```bash
@@ -21,4 +22,4 @@ python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predicti
 
 
 
-![Screenshot 2024-08-02 141037](https://github.com/user-attachments/assets/8d523ddf-86df-43be-afff-dabea96a1aef)
+
