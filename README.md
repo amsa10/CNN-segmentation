@@ -21,6 +21,11 @@ python predict_patches.py /path/to/patches /path/to/output https://model/downloa
 python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predictions.npy /path/to/output/segmented.png
 
 
+## Literature
 
+This project is based on or inspired by the following works: 
+
+1. (https://arxiv.org/abs/1901.10077#)
+ 
 
 
