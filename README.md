@@ -8,6 +8,7 @@ cd path/to/data
 
 
  
+
 ## Extract patches from an image
 
 
