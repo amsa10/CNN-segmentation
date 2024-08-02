@@ -2,6 +2,7 @@
 ![image](https://github.com/user-attachments/assets/b1c112f5-9210-4159-8c23-123c1604fe6d)
 https://github.com/amsa10/Conv-segmentation/blob/main/data/segmented.png?raw=true
 
+[Click here to view the image](https://github.com/amsa10/Conv-segmentation/blob/main/data/segmented.png?raw=true)
 
 
 
