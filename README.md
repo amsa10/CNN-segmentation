@@ -1,8 +1,6 @@
 # Conv-segmentation
-![Screenshot 2024-08-02 141037](https://github.com/user-attachments/assets/5e21ee2b-220a-40ed-933a-0faf51dd4777)
-![image](https://github.com/user-attachments/assets/28eee49d-08a6-4c65-b8a1-21ac0fb173a8)
-![image](https://github.com/user-attachments/assets/61215c43-9872-4edb-a946-00f0532ef39d)
-![image](https://github.com/user-attachments/assets/ebb71736-429d-42d5-b46c-f1b4ba5b7aea)
+![image](https://github.com/user-attachments/assets/b1c112f5-9210-4159-8c23-123c1604fe6d)
+
 
 ## Instructions 
 ```bash
