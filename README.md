@@ -14,5 +14,8 @@ python create_patches.py /path/to/img.tiff /path/to/patches
 3. Prediction
 python predict_patches.py /path/to/patches /path/to/output https://model/download
 
+4 Unpatch and display
+python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predictions.npy /path/to/output/segmented.png
+
 
 
