@@ -1,8 +1,8 @@
 # CNN-segmentation
 
 ## Data download
-Open your terminal and run the following command to give the script execution permissions:
+Open your terminal and run the following command: 
 ```bash
-chmod +x install_and_download.sh
-./install_and_download.sh
+chmod +x data_download.sh
+./data_download.sh
 
