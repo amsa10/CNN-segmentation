@@ -1,0 +1,8 @@
+numpy
+Pillow
+scikit-image
+tensorflow
+matplotlib
+tqdm
+requests
+rasterio
