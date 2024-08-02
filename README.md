@@ -12,6 +12,7 @@ python create_patches.py /path/to/img.tiff /path/to/patches
 
 
 3. Prediction
+cd /path/to/preprocessing_data
 python predict_patches.py /path/to/patches /path/to/output https://model/download
 
 4 Unpatch and display
