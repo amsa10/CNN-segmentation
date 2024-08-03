@@ -25,6 +25,12 @@ python reconstruct_and_display.py /path/to/original_image.tiff /path/to/predicti
 This project is based on by the following works: 
 
 1. https://arxiv.org/abs/1901.10077
+@article{mohajerani2019cloud,
+  title={Cloud-Net: An end-to-end cloud detection algorithm for Landsat 8 imagery},
+  author={Mohajerani, Shima and Saeedi, P},
+  journal={arXiv preprint arXiv:1901.10077},
+  year={2019}
+}
 
  
 
