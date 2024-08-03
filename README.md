@@ -1,4 +1,4 @@
-# Conv-segmentation 
+# Conv-semseg
 
 This is an initial version 
 
