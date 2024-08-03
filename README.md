@@ -3,7 +3,7 @@
 This is an initial version 
 
 ```bash
-## Instructions
+
 
 1. Open your terminal and run the following command: 
 cd path/to/data
