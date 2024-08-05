@@ -28,7 +28,7 @@ This project is based on by the following works:
 @INPROCEEDINGS{38-cloud-1,
   author={S. {Mohajerani} and P. {Saeedi}},
   booktitle={IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium},
-  title={Cloud-Net: An End-To-End Cloud Detection Algorithm for Landsat 8 Imagery},
+  title={Cloud-Net: An End-To-End Cloud Detection Algorithm ....},
   year={2019},
   volume={},
   number={},
